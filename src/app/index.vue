@@ -36,9 +36,9 @@
       v-spacer
       p {{ offsetTop }}
       v-toolbar-items
-        v-btn(flat) SOBRE
-        v-btn(flat) EXPERIÊNCIA
-        v-btn(flat) SKILLS
+        v-btn(flat v-scroll-to="{el: '#about'}") SOBRE
+        v-btn(flat v-scroll-to="{el: '#work-experience'}") EXPERIÊNCIA
+        v-btn(flat v-scroll-to="{el: '#skills'}") SKILLS
     v-content.pa-0
       router-view
 </template>
