@@ -6,6 +6,11 @@
       :dark="toolbarDark"
       :class="toolbarStyle"
       )
+      v-toolbar-items
+        v-btn(flat v-scroll-to="{el: '#about'}") SOBRE
+        v-btn(flat v-scroll-to="{el: '#work-experience'}") EXPERIÊNCIA
+        v-btn(flat v-scroll-to="{el: '#skills'}") SKILLS
+      v-spacer
       v-tooltip(bottom)
         v-btn(
           icon
@@ -33,12 +38,6 @@
           )
           v-icon.socicon-facebook(small)
         span Facebook
-      v-spacer
-      p {{ offsetTop }}
-      v-toolbar-items
-        v-btn(flat v-scroll-to="{el: '#about'}") SOBRE
-        v-btn(flat v-scroll-to="{el: '#work-experience'}") EXPERIÊNCIA
-        v-btn(flat v-scroll-to="{el: '#skills'}") SKILLS
     v-content.pa-0
       router-view
 </template>
