@@ -1,22 +1,14 @@
 const qualities = [
   {
-    title: 'Hard-working',
-    color: 'orange white--text',
-  },
-  {
-    title: 'Conhecimento em ES6',
-    color: 'red white--text',
-  },
-  {
     title: 'Conhecimento em testes automatizados tanto no front, quanto no back-end',
     color: 'purple white--text',
   },
   {
-    title: 'Bom relacionamento interpessoal',
-    color: 'blue white--text',
+    title: 'Experiência em Scrum',
+    color: 'cyan white--text',
   },
   {
-    title: 'Experiência com Scrum',
+    title: 'Conhecimento em EcmaScript 6',
     color: 'pink white--text',
   },
   {
